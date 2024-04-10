@@ -1,90 +1,74 @@
-# Galaxy Pets: Collect and Train Your Cosmic Companions
+# Elephant Sanctuary
 
-For this programming assignment in Java, you are stepping into the shoes of a cosmic trainer, embarking on a journey through the universe to collect and train Galaxy Pets. These are mythical creatures with unique abilities and attributes that you'll be modeling in Java.
+For this programming exercise, you will practice modeling objects in Java. You will work with Java classes, constructors, fields (variables within a class), methods (functions within a class), and more. This exercise will help you understand how to design and implement classes in an object-oriented programming language.
 
 ## Deadline
-This assignment is due before the next scheduled class.
+This work should be completed before the next class.
 
 ## Instructions
-For instructions on how to complete and submit this assignment, please refer to the assignments section of the course instructions reachable via [assignments section of our course webpage](https://assignments.example.com).
+Please refer to the assignments section of the course website for instructions on how to do and submit the assignment.
 
 ## Preparation
 
-- Complete and understand all questions in Module 2: "Exploring Object-Oriented Programming".
-- Access the OLI material through Canvas or directly via [programming course materials](https://programmingmaterials.example.com).
-
-Note: The OLI material and tasks this year may not perfectly align, so it's okay to read ahead if you did not find everything mentioned.
+- Read and work through Chapter 2: Looking Inside Classes.
+- Access the course material through the course website or directly via provided links.
 
 ## Learning Goals
 
-The goals for this week include understanding how to:
-- Design Java classes.
-- Implement fields and methods within a class.
-- Utilize the `main` method for testing.
-- Understand the concept of object encapsulation.
-- Manage object interaction within a Java application.
+This week, we aim to familiarize you with the following concepts:
+* Designing Java classes.
+* Adding instance fields.
+* Writing a constructor method.
+* Implementing getters and setters.
+* Utilizing the dot operator.
+* Printing information to the terminal.
+* Using the `main` method.
+* Understanding scope and variable shadowing.
 
-## Troubleshooting Guide
+## Assignment
 
-1. Browse the [posted questions](https://forum.example.com/issues) related to this week's assignment. Are others experiencing the same issue?
-2. If not, create a [New Question](https://forum.example.com/issues/new) with a descriptive title beginning with "Week *x*: *summary of problem*".
-3. Seek out further help at the [weekly help sessions](https://helpsessions.example.com) hosted by our team.
+Imagine a sanctuary dedicated to the care and protection of elephants. Your task is to model these magnificent creatures in Java. You need to create an `Elephant` class that encapsulates the characteristics and behaviors of an elephant.
 
-Collaboration with peers is encouraged, but please avoid sharing exact solutions.
+### Exercise 1: Getting Started
 
-## Assignment Details
+Create a new Java file called `Elephant.java` in the `src` folder. This file will define the `Elephant` class.
 
-Your journey through the galactic frontier begins with the creation of unique Galaxy Pets crafted from the essence of cosmic phenomena. Dive into this universe by modeling these creatures in Java. Let your imagination run wild; perhaps a Starlion with the roar of a collapsing star, or a Nebulupi, a wolf made from the gas of a nebulous cloud.
+### Exercise 2: Fields
 
-### Task 1: Class Creation
+Add fields to your Elephant class to represent its name, age, weight, and whether or not it is currently asleep. You don't need to assign values to these fields just yet.
 
-Start by creating a file named `GalaxyPet.java` inside the `src` directory. Declare the GalaxyPet class within this file.
+### Exercise 3: Constructor
 
-### Task 2: Defining Properties
+Write a constructor for the Elephant class. The constructor should allow you to set initial values for the elephant's name, age, weight, and asleep status when you create an instance of the class.
 
-Our Galaxy Pets need characteristics. Define the following fields within the GalaxyPet class, without assigning any initial values:
+### Exercise 4: Getters and Setters
 
-- String name
-- int energyLevel
-- int cosmicPower
-- int speed
-- boolean asleep
+Implement getters and setters for each field in your class. This will allow you to access and modify the elephant's properties safely.
 
-### Task 3: Spawning Galaxy Pets
+### Exercise 5: Creating Elephants
 
-In the `main` method of your GalaxyPet class, create and instantiate a "Starlion" with initial values for its characteristics. Use the dot operator to set these attributes directly for now.
+In the `main` method of your Elephant class, create several instances of the Elephant class, using the constructor you defined. Set each elephant's attributes to values of your choosing.
 
-### Task 4: Encapsulation with Getters and Setters
+### Exercise 6: The `printInfo` Method
 
-To encapsulate the inner workings of our Galaxy Pets, change the access modifiers of your fields to `private`. Then, implement getters and setters for each property.
+Add a method named `printInfo` to your Elephant class. This method should print all the current information about the elephant to the console.
 
-### Task 5: Constructing with Constructors
+### Exercise 7: Interaction among Elephants
 
-Implement a constructor for the GalaxyPet class that allows setting all characteristics upon instantiation. Create a second pet, "Nebulupi", using this constructor.
+Introduce a method in your Elephant class that simulates an interaction between elephants. For example, you can create a method that simulates one elephant trumpeting to greet another elephant. This method should update the state of the elephants in some way and print a description of the interaction.
 
-### Task 6: Display Information
+### Exercise 8: Understanding Scope
 
-Create a method named `displayInfo` within the GalaxyPet class that prints out all information about the pet to the console.
+Investigate how Java's scope rules work by experimenting with variable shadowing within your class. Pay specific attention to how the `this` keyword can be used to prevent shadowing.
 
-### Task 7: The Cosmic Challenge
+## Checklist
 
-Galaxy Pets can challenge each other to cosmic duels. Implement a method named `challenge` where one pet can challenge another. The outcome will determine which pet gains cosmic power. Incorporate simple logic based on your chosen attributes.
+- Implement the `Elephant` class with the specified fields.
+- Write a constructor that initializes an elephant's attributes.
+- Implement getters and setters for each field.
+- Create instances of your Elephant class within the `main` method.
+- Implement and test the `printInfo` method.
+- Create and test the method that simulates interactions between elephants.
+- Examine how scope and shadowing affect your class.
 
-### Task 8: Understanding Scope and Shadowing
-
-Review examples of scope and variable shadowing provided in the reading materials. Be prepared to adjust your implementation if necessary, focusing on proper usage of the `this` keyword.
-
-## Final Checklist
-
-- [ ] Created and developed the GalaxyPet class with fields and methods.
-- [ ] Utilized getters and setters for encapsulation.
-- [ ] Implemented constructors for easy object instantiation.
-- [ ] Developed a method displaying a pet's info.
-- [ ] Enabled Galaxy Pets to challenge each other.
-
-## Bugs and Errors?
-
-If you encounter any inconsistencies or errors with this assignment, please report them by creating a [New Issue](https://forum.example.com/issues/new) with the title "Week *x* Error: *summary of error here*". Contributors identifying bugs will be acknowledged.
-
-
-This personalized task should help the student understand the same core programming concepts as the model task, framed around an engaging theme of collecting and training cosmic creatures.
+Please make sure to test your program thoroughly and correct any bugs before the submission deadline.
